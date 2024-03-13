@@ -15,13 +15,13 @@ This repository contains a web scraper built with Puppeteer and Node.js. The scr
 - MONGODB_URI=your-mongodb-uri
 
 ### Run the scraper:
--node scraper.js
+- node scraper.js
 
 ### Output
--The scraper will extract project names and descriptions from the portfolio website and store them in the MongoDB database.<br/>
-{
-  "project_name": "Notes-app",
-  "project_para": "This project is a Notes App built using Express, MongoDB, and Passport. It allows users to create, read, update, and delete notes securely. The app features user authentication using Passport, ensuring that only authenticated users can access and manage their notes."
+- The scraper will extract project names and descriptions from the portfolio website and store them in the MongoDB database.<br/>
+{<br/>
+  "project_name": "Notes-app",<br/>
+  "project_para": "This project is a Notes App built using Express, MongoDB, and Passport. It allows users to create, read, update, and delete notes securely. The app features user authentication using Passport, ensuring that only authenticated users can access and manage their notes."<br/>
 }
 
 
