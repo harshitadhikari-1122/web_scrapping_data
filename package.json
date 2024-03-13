@@ -1,0 +1,16 @@
+{
+  "name": "web-scrapping",
+  "version": "1.0.0",
+  "description": "Creating demo project for web scrapping",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Harshit Adhikari",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.2.1",
+    "puppeteer": "^22.4.1"
+  }
+}
