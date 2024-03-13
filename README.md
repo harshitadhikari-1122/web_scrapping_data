@@ -1,12 +1,14 @@
 # Web Scraper for Portfolio Website
+
 This repository contains a web scraper built with Puppeteer and Node.js. The scraper extracts project names and descriptions from a portfolio website and stores them in a MongoDB database. It is designed for extracting project information from a portfolio for further analysis or use.
 
 ### Technologies Used
-  Puppeteer
-  Node.js
-  MongoDB
+- Puppeteer
+- Node.js
+- MongoDB
 
-### Install dependencies:
+### Install dependencies
+
 npm install
 
 ### Usage
@@ -19,13 +21,10 @@ node scraper.js
 
 ### Output
 The scraper will extract project names and descriptions from the portfolio website and store them in the MongoDB database.
-![Uploading Screenshot (43).png…]()
+{
+  "project_name": "Notes-app",
+  "project_para": "This project is a Notes App built using Express, MongoDB, and Passport. It allows users to create, read, update, and delete notes securely. The app features user authentication using Passport, ensuring that only authenticated users can access and manage their notes."
+}
 
 
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgements
-Puppeteer: https://github.com/puppeteer/puppeteer
-Node.js: https://nodejs.org/ 
